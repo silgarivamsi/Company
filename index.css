@@ -1,0 +1,197 @@
+body {
+    padding-top: 20px;
+}
+.underline{
+  height:3px;
+  width: 50px;
+  background-color :#1BBD34
+}
+/* Navbar */
+/* Company name */
+.green {
+    color: #1BBD34;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav .nav-link {
+    color: #000 !important;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #28a745 !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: white;
+    color: #28a745;
+}
+
+/* Carousel Image */
+.carousel-item img {
+    height: 573px;
+    object-fit: cover;
+}
+
+
+/* Portfolio */
+.Green {
+    background-color: #1BBD34;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #1BBD34;
+    color: white;
+}
+
+.clients img {
+    max-height: 45px;
+    /* normal size */
+    transition: 0.3s ease;
+    /* smooth animation */
+}
+
+.clients img:hover {
+    transform: scale(1.2);
+    /* hover ला मोठी होईल */
+}
+
+.clients img {
+    max-height: 45px;
+    /* normal size */
+    transition: 0.3s ease;
+    /* smooth animation */
+}
+
+.clients img:hover {
+    transform: scale(1.2);
+    /* hover ला मोठी होईल */
+}
+
+.clients img {
+    opacity: 0.6;
+}
+
+.clients img:hover {
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+/* Footer */
+.black {
+    background-color: #000;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: #aaa;
+}
+
+.footer-links li a:hover {
+    color: #1BBD34;
+}
+
+.green1 {
+    color: white;
+    background-color: #1BBD34;
+}
+
+
+/* About Section(Team) */
+/* Green Header Section */
+.page-header {
+    background: #1bbd36;
+    padding: 22px 0;
+    color: white;
+
+}
+.page-header .breadcrumb a{
+    color: white;
+    text-decoration: none;
+}
+
+.quote-icon-right {
+    display: inline-block;
+    transform: scale(-1, -1);
+}
+
+
+/* Features Start */
+.feature-box{
+    transition: 0.3s;
+}
+
+.feature-box:hover{
+    border-color: green !important;
+}
+
+.feature-box:hover h3{
+    color: green;
+}
+
+.icon-color-1{
+   color: #ffbb2c;
+}
+.icon-color-2{
+   color: #5578ff;
+}
+.icon-color-3{
+   color: #e80368;
+}
+.icon-color-4{
+   color: #e361ff;
+}
+.icon-color-5{
+   color: #47aeff;
+}
+.icon-color-6{
+   color: #ffa76e;
+}
+.icon-color-7{
+   color: #11dbcf;
+}
+.icon-color-8{
+   color: #4233ff;
+}
+.icon-color-9{
+   color: #b2904f;
+}
+.icon-color-10{
+   color: #b20969;
+}
+.icon-color-11{
+   color: #ff5828;
+}
+.icon-color-12{
+   color: #29cc61;
+}
+
+/* pricing */
+.lightblue{
+    background-color: rgb(240, 250, 253);
+}
+.doller{
+    color:#1bbd36 ;
+    font-size: 24px;
+}
+.doller2{
+    color:#1bbd36 ;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.price{
+    font-size:35px;
+    font-weight:700;
+    color:#1bbd36;
+}
+
+.price span{
+    font-size:18px;
+    font-weight: 400;
+    color:#aeaeae;
+}
